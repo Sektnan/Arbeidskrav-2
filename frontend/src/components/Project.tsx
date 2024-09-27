@@ -13,7 +13,7 @@ const Project: React.FC<ProjectProps> = ({ title, description, details, children
   return (
     <div>
       <h3>{title}</h3>
-      <h2>{description}</h2>
+      <h4>{description}</h4>
       <p>{details}</p>
       {children}
     </div>

@@ -35,7 +35,7 @@ const projects = [
 ];
 
 app.get('/api/projects', (req, res) => {
-    res.json('projects')
+    res.json(projects)
 });
 
 // Start serveren
